@@ -41,11 +41,13 @@ function App() {
           </div>
         </section>
 
-        <section id="story" className="section">
+        <section id="story" className="section story">
           <div className="container">
             <h2>Our Story</h2>
+            <div className="section-divider"></div>
             <div className="story-content">
-              <p>How we met and our journey together...</p>
+              <p>From mountain adventures to quiet moments together, our love story has been written across landscapes as beautiful as this one. Every sunset, every shared laugh, every dream we've built together has led us to this moment.</p>
+              <p>Join us as we celebrate the next chapter of our journey, surrounded by the people we love most.</p>
             </div>
           </div>
         </section>
@@ -53,14 +55,19 @@ function App() {
         <section id="details" className="section">
           <div className="container">
             <h2>Wedding Details</h2>
+            <div className="section-divider"></div>
             <div className="details-grid">
               <div className="detail-card">
                 <h3>Ceremony</h3>
-                <p>Details coming soon...</p>
+                <p>A beautiful celebration surrounded by nature and the people we love most. Details and location information coming soon.</p>
               </div>
               <div className="detail-card">
                 <h3>Reception</h3>
-                <p>Details coming soon...</p>
+                <p>Dancing, dining, and celebrating under the stars. Join us for an unforgettable evening of joy and love.</p>
+              </div>
+              <div className="detail-card">
+                <h3>Accommodations</h3>
+                <p>Information about nearby hotels and lodging options for our out-of-town guests will be shared soon.</p>
               </div>
             </div>
           </div>
@@ -69,8 +76,9 @@ function App() {
         <section id="rsvp" className="section">
           <div className="container">
             <h2>RSVP</h2>
+            <div className="section-divider"></div>
             <div className="rsvp-form">
-              <p>Please let us know if you can join us!</p>
+              <p>Your presence would make our day complete. Please let us know if you can celebrate with us by responding before the date specified in your invitation.</p>
               <button className="primary-button">RSVP Form</button>
             </div>
           </div>
@@ -79,8 +87,10 @@ function App() {
         <section id="registry" className="section">
           <div className="container">
             <h2>Registry</h2>
+            <div className="section-divider"></div>
             <div className="registry-content">
-              <p>Your presence is the best present, but if you'd like to give a gift...</p>
+              <p>Your presence at our wedding is the greatest gift of all. However, if you would like to honor us with a gift, we have registered at a few of our favorite places.</p>
+              <button className="primary-button">View Registry</button>
             </div>
           </div>
         </section>
