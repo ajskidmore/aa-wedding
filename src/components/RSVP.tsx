@@ -5,7 +5,7 @@ const RSVP: React.FC = () => {
     <section className="hero">
       <div className="hero-content">
         <h1 className="couple-names" style={{fontSize: '3.5rem'}}>RSVP</h1>
-        <div className="wedding-date">
+        <div className="content-box-centered">
           <p>Your presence would make our day complete.</p>
           <p>Please let us know if you can celebrate with us by responding before the date specified in your invitation.</p>
         </div>

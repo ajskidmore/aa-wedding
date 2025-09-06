@@ -152,14 +152,69 @@
   transform: translate3d(0, 0, 0);
   will-change: opacity;
   animation: blurFadeIn 1.2s ease-out;
+  text-align: left;
+}
+
+.wedding-date-centered {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  padding: 3rem 2rem;
+  border-radius: 2px;
+  margin: 3rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translate3d(0, 0, 0);
+  will-change: opacity;
+  animation: blurFadeIn 1.2s ease-out;
+  text-align: center;
+}
+
+.content-box-centered {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  padding: 3rem 2rem;
+  border-radius: 2px;
+  margin: 3rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translate3d(0, 0, 0);
+  will-change: opacity;
+  animation: blurFadeIn 1.2s ease-out;
+  text-align: center;
 }
 
 .wedding-date p {
   font-size: 1.1rem;
-  margin: 0.8rem 0;
+  margin: 1.5rem 0;
   color: var(--white);
   font-weight: 300;
   letter-spacing: 1px;
+}
+
+.wedding-date-centered p,
+.content-box-centered p {
+  font-size: 1.1rem;
+  margin: 1.5rem 0;
+  color: var(--white);
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.story-subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--white);
+  text-align: center;
+  margin: 2.5rem 0 0.2rem 0;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+}
+
+.story-subtitle.first {
+  margin: 0.2rem 0 0.2rem 0;
+}
+
+.story-subtitle + p {
+  margin-top: 0.3rem;
 }
 
 .date {
