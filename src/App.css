@@ -118,7 +118,6 @@
   position: relative;
   z-index: 2;
   color: var(--white);
-  animation: fadeInUp 1s ease-out;
 }
 
 .couple-names {
@@ -145,11 +144,14 @@
 
 .wedding-date {
   background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
   padding: 3rem 2rem;
   border-radius: 2px;
   margin: 3rem 0;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: translate3d(0, 0, 0);
+  will-change: opacity;
+  animation: blurFadeIn 1.2s ease-out;
 }
 
 .wedding-date p {
@@ -373,6 +375,26 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeInOnly {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blurFadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
   }
 }
 
