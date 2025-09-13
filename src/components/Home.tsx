@@ -9,7 +9,7 @@ const Home: React.FC = () => {
         <h2 className="wedding-announcement">We're Getting Married!</h2>
         <div className="wedding-date-centered">
           <p>Save the Date</p>
-          <p className="date">September 6th, 2026</p>
+          <p className="date">Sunday, September 6th, 2026</p>
         </div>
         <Link to="/story">
           <button className="cta-button">Our Story</button>
