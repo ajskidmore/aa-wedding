@@ -11,8 +11,8 @@ const Home: React.FC = () => {
           <p>Save the Date</p>
           <p className="date">September 6th, 2026</p>
         </div>
-        <Link to="/rsvp">
-          <button className="cta-button">RSVP Now</button>
+        <Link to="/story">
+          <button className="cta-button">Our Story</button>
         </Link>
       </div>
     </section>
