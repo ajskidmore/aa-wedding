@@ -26,6 +26,7 @@ const Navigation: React.FC = () => {
           <li><Link to="/details" className={location.pathname === '/details' ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Details</Link></li>
           <li><Link to="/rsvp" className={location.pathname === '/rsvp' ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>RSVP</Link></li>
           <li><Link to="/registry" className={location.pathname === '/registry' ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Registry</Link></li>
+          <li><Link to="/qa" className={location.pathname === '/qa' ? 'active' : ''} onClick={() => setIsMenuOpen(false)}>Q & A</Link></li>
         </ul>
       </div>
     </nav>

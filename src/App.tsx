@@ -7,6 +7,7 @@ import Story from './components/Story';
 import Details from './components/Details';
 import RSVP from './components/RSVP';
 import Registry from './components/Registry';
+import QA from './components/QA';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/details" element={<Details />} />
             <Route path="/rsvp" element={<RSVP />} />
             <Route path="/registry" element={<Registry />} />
+            <Route path="/qa" element={<QA />} />
           </Routes>
         </main>
         <footer className="footer">
