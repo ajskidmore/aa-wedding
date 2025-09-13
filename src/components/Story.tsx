@@ -72,7 +72,7 @@ const Story: React.FC = () => {
             <h3 className="story-subtitle">Long Distance</h3>
           <p>After Ashley graduated from Michigan State in May 2023, she moved to Salt Lake City to begin her Doctorate in Occupational Therapy at the University of Utah. For the next seven months, they did long distance, filling the miles between them with FaceTime date nights and phone calls until A.J. graduated, landed a job working full time as a remote UX Engineer, and moved to Salt Lake City as well.</p>
           
-          <div className="story-images long-distance-images">
+          <div className="story-images">
             <img src="/IMG_5688.jpg" alt="Long distance" className="story-image" onClick={() => openModal('/IMG_5688.jpg')} />
             <img src="/IMG_84888.jpeg" alt="FaceTime cooking dates" className="story-image" onClick={() => openModal('/IMG_84888.jpeg')} />
             <img src="/untitled4.jpg" alt="FaceTime dates" className="story-image" onClick={() => openModal('/untitled4.jpg')} />
