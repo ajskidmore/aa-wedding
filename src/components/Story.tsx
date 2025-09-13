@@ -76,7 +76,7 @@ const Story: React.FC = () => {
             <img src="/IMG_5688.jpg" alt="Long distance" className="story-image" onClick={() => openModal('/IMG_5688.jpg')} />
             <img src="/IMG_84888.jpeg" alt="FaceTime cooking dates" className="story-image" onClick={() => openModal('/IMG_84888.jpeg')} />
             <img src="/untitled4.jpg" alt="FaceTime dates" className="story-image" onClick={() => openModal('/untitled4.jpg')} />
-            <img src="/IMG_9027.jpg" alt="Long distance memories" className="story-image" onClick={() => openModal('/IMG_9027.jpg')} />
+            <img src="/IMG_9027.JPG" alt="Long distance memories" className="story-image" onClick={() => openModal('/IMG_9027.JPG')} />
             <img src="/IMG_9096.jpg" alt="Long distance moments" className="story-image" onClick={() => openModal('/IMG_9096.jpg')} />
             <img src="/72200151189.jpg" alt="Long distance times" className="story-image" onClick={() => openModal('/72200151189.jpg')} />
             <img src="/IMG_8303.jpeg" alt="Long distance journey" className="story-image" onClick={() => openModal('/IMG_8303.jpeg')} />
