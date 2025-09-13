@@ -187,7 +187,7 @@
   transform: translate3d(0, 0, 0);
   will-change: opacity;
   animation: blurFadeIn 1.2s ease-out;
-  text-align: center;
+  text-align: left;
 }
 
 .wedding-date p {
