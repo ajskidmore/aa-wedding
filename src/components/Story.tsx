@@ -50,7 +50,7 @@ const Story: React.FC = () => {
   }, []);
 
   return (
-    <section className="hero">
+    <section className="hero hero-story">
       <div className="hero-content">
         <h1 className="couple-names" style={{fontSize: '3.5rem'}}>Our Story</h1>
         <div className="wedding-date">

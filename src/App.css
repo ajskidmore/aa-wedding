@@ -699,8 +699,12 @@
   }
   
   .hero {
-    padding: 12rem 1rem 2rem;
+    padding: 8rem 1rem 2rem;
     background-attachment: scroll;
+  }
+  
+  .hero-story {
+    padding: 12rem 1rem 2rem;
     padding-top: max(12rem, calc(12rem + env(safe-area-inset-top)));
   }
   
