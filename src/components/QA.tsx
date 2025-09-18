@@ -6,7 +6,7 @@ const QA: React.FC = () => {
       <div className="hero-content">
         <h1 className="couple-names" style={{fontSize: '3.5rem'}}>Q & A</h1>
         <div className="content-box-centered">
-          <p>Coming Soon!</p>
+          <p>Q & A Coming Soon!</p>
         </div>
       </div>
     </section>
